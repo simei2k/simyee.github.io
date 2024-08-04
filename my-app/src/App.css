@@ -3,23 +3,36 @@
   src: url('./assets/fonts/Windows_Regular.ttf') format('truetype');
 }
 
-.highlight:active{
-  color:#010081
+body{
+  width:100%
 }
 
 .App {
-  text-align: center;
+  align-items: center;
   background-color: #1695A0;
   cursor: url(http://www.rw-designer.com/cursor-extern.php?id=128661);
 }
 
-.Container-Properties{
-  max-width: 10vh;
-  align-items: center;
+.Computer-Container-Properties{
+  height:10%;
+  margin-top:10px;
   display: inline-block;
+  margin-left:10px;
 }
-.Container-Properties:hover{
+.Computer-Container-Properties:hover{
   transform: scale(1.2);
+  transform-origin: left bottom;
+}
+
+.Folder-Container-Properties{
+  height:50px;
+  width:10%;
+  align-items: center;
+  display: inline-block;  
+}
+.Folder-icon:hover, .FolderText:hover{
+  transform: scale(1.2);
+  transform-origin: left bottom;
 }
 
 .App-logo {
@@ -38,14 +51,13 @@
   display: flex;
   min-height: 100vh;
   flex-direction: column;
-  align-items: left;
+  align-items: center;
 }
 
 .Folder-icon{
   margin-left: 5vh;
   height: 8vh;
-  width: 4vw;
-  margin-top: 10vh ;
+  margin-top:5px
 }
 
 .App-bottom-bar{
@@ -93,5 +105,4 @@
     transform: rotate(360deg);
   }
 }
-
 

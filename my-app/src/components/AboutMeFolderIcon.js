@@ -1,8 +1,8 @@
-import Container from '@mui/material/Grid';
+import Container from '@mui/material/Container';
 
-export function FolderGroup(){
+export function AboutMeFolderGroup(){
     return(
-        <Container className='Container-Properties'>
+        <Container className='Folder-Container-Properties' maxWidth={false}>
             <Foldericon></Foldericon>
             <FolderText></FolderText>
         </Container>

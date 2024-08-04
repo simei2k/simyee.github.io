@@ -1,16 +1,22 @@
 import logo from './assets/logo.svg';
 import './App.css';
-import BottomBar from './bottom-bar.js';
-import {FolderGroup} from './foldericon.js';
+import BottomBar from './components/bottom-bar.js';
+import { AboutMeFolderGroup } from './components/AboutMeFolderIcon.js';
+import { MyComputerGroup } from './components/MyComputerGroup.js';
+import iloveket from './assets/iloveket.png'
+import "98.css";
 
 
 function App() {
   return (
-    <div className="App">
+    <div className="App"> 
       <header className="App-header">
-        <FolderGroup></FolderGroup>
-        <img src={logo} className="App-logo" alt="logo" />
-        <h1>My Portfolio Page</h1>
+        <body>
+        <MyComputerGroup />
+       <AboutMeFolderGroup />
+       
+        </body>
+      
       </header>
       <BottomBar>  
       </BottomBar>
