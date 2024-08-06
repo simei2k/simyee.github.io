@@ -3,8 +3,17 @@
   src: url('./assets/fonts/Windows_Regular.ttf') format('truetype');
 }
 
+.App-header {
+  background-color: #1695A0;
+  display: flex;
+  min-height: 120vh;
+  flex-direction: column;
+  align-items: center;
+}
+
 body{
-  width:100%
+  width:100%;
+  height:300%;
 }
 
 .App {
@@ -13,96 +22,26 @@ body{
   cursor: url(http://www.rw-designer.com/cursor-extern.php?id=128661);
 }
 
-.Computer-Container-Properties{
-  height:10%;
-  margin-top:10px;
-  display: inline-block;
-  margin-left:10px;
-}
-.Computer-Container-Properties:hover{
-  transform: scale(1.2);
-  transform-origin: left bottom;
+
+
+.AvatarContainer{
+  display:inline-block;
+
 }
 
-.Folder-Container-Properties{
-  height:50px;
-  width:10%;
-  align-items: center;
-  display: inline-block;  
+.MyAvatar{
+  width:100%;
+  height:100%;
+  text-align: left;
 }
-.Folder-icon:hover, .FolderText:hover{
-  transform: scale(1.2);
-  transform-origin: left bottom;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #1695A0;
-  display: flex;
-  min-height: 100vh;
-  flex-direction: column;
-  align-items: center;
-}
-
-.Folder-icon{
-  margin-left: 5vh;
-  height: 8vh;
-  margin-top:5px
-}
-
-.App-bottom-bar{
-  background-color: #c3c3c3;
-  position: fixed;
-  height: 5%;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  z-index: 999;
-  margin: 0 auto;
-  width: 100vw;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: left;
-}
-
-
-.Bottom-bar-icon{
-  height:5vh;
-  width: 5vw;
-  margin-left:1vh;
-  align-items:left;
-
-
+.PopUpPicture{
+  width: 150px;
+  height: 300px;
 }
 
 .App-link {
   color: #61dafb;
 }
 
-.FolderText{
-  color:#fdffff  ;
-  font-family: Microsoft;
-  margin-top:0;
-  margin-left: 5.5vh;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
 

@@ -1,0 +1,25 @@
+.Folder-Container-Properties{
+    height:100%;
+    width:10%;
+    align-items: center;
+    display: inline-block;  
+  }
+  .Folder-icon:onClick, .FolderText:onClick{
+    transform: scale(1.2);
+    transform-origin: left bottom;
+  }
+
+  
+.Folder-icon{
+    margin-left: 5vh;
+    height: 8vh;
+    margin-top:5px
+  }
+
+.FolderText{
+    color:#fdffff  ;
+    font-family: Microsoft;
+    margin-top:0;
+    margin-left: 5.5vh;
+}
+  

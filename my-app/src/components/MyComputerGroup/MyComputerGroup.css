@@ -1,0 +1,23 @@
+.Computer-Container-Properties:onClick{
+    transform: scale(1.2);
+    transform-origin: left bottom;
+  }
+
+  .Computer-icon:onClick, .ComputerText:onClick{
+    transform: scale(1.2);
+    transform-origin: left bottom;
+  }
+
+  .Computer-icon{
+    margin-left: 5vh;
+    height: 8vh;
+    margin-top:5px
+  }
+
+  .ComputerText{
+    color:#fdffff  ;
+    font-family: Microsoft;
+    margin-top:0;
+    margin-left: 5.5vh;
+  }
+  
