@@ -1,18 +1,18 @@
 .App-bottom-bar{
     background-color: #c3c3c3;
     position: fixed;
-    height: 5%;
+    height: max-content;
     right: 0;
     bottom: 0;
     left: 0;
     z-index: 999;
     margin: 0 auto;
-    width: 100vw;
+    width:auto;
     display: flex;
-    justify-content: center;
+    justify-content: left;
     flex-direction: column;
     align-items: left;
-  }
+}
   
   
   .Bottom-bar-icon{
@@ -20,6 +20,4 @@
     width: 5vw;
     margin-left:1vh;
     align-items:left;
-  
-  
   }

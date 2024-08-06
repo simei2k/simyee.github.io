@@ -1,4 +1,5 @@
 import Container from '@mui/material/Container';
+import "./AboutMeFolderGroup.css"
 
 export function AboutMeFolderGroup(){
     return(

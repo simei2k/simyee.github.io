@@ -1,3 +1,4 @@
+import "./AboutMePopUp.css"
 export function AboutMePopUp(){
     return (
         <div className="window">

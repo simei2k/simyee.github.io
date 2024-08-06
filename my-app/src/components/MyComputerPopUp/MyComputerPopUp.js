@@ -1,4 +1,4 @@
-
+import "./MyComputerPopUp.css"
 export function MyComputerPopUp(){
     return (
         <div className="window">

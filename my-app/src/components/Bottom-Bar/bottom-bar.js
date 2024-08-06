@@ -1,3 +1,5 @@
+import './Bottom-Bar.css';
+
 export function BottomBar() {
     return (
       <div className="App-bottom-bar">

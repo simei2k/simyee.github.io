@@ -1,6 +1,7 @@
 import Container from '@mui/material/Container';
 import Computer from '../../assets/mycomputericon.png'
 import Popup from 'reactjs-popup';
+import "./MyComputerGroup.css"
 
 
 export function MyComputerGroup(){
