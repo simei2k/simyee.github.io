@@ -1,9 +1,16 @@
 .Folder-Container-Properties{
-    height:100%;
-    width:10%;
+    height:max-content;
+    width:max-content;
     align-items: center;
     display: inline-block;  
   }
+
+
+  .css-ur2jdm-MuiContainer-root{
+    width:max-content;
+  }
+
+
   .Folder-icon:onClick, .FolderText:onClick{
     transform: scale(1.2);
     transform-origin: left bottom;

@@ -1,0 +1,10 @@
+.window{
+    width: 200%;
+    align-items:center;
+  }
+
+.field-row{
+  display:inline-block;
+  width: 100%;
+}
+

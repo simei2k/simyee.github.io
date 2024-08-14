@@ -1,7 +1,13 @@
-.Computer-Container-Properties:onClick{
-    transform: scale(1.2);
-    transform-origin: left bottom;
+  .Computer-Container-Properties{
+    height:max-content;
+    width:max-content;
+    align-items: center;
+    display: inline-block;  
   }
+  .css-ur2jdm-MuiContainer-root{
+    width:max-content;
+  }   
+
 
   .Computer-icon:onClick, .ComputerText:onClick{
     transform: scale(1.2);
@@ -19,4 +25,5 @@
     font-family: Microsoft;
     margin-top:0;
     margin-left: 5.5vh;
+    width:max-content;
   }

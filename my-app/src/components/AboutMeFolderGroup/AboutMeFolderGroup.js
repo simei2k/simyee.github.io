@@ -3,10 +3,10 @@ import "./AboutMeFolderGroup.css"
 
 export function AboutMeFolderGroup(){
     return(
-        <Container className='Folder-Container-Properties' maxWidth={false}>
+        <div className='Folder-Container-Properties' minWidth={false} maxWidth={false}>
             <Foldericon></Foldericon>
             <FolderText></FolderText>
-        </Container>
+        </div>
     )
 } 
 

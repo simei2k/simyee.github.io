@@ -6,10 +6,10 @@ import "./MyComputerGroup.css"
 
 export function MyComputerGroup(){
     return(
-        <Container className='Computer-Container-Properties' maxWidth={false}>
+        <div className='Computer-Container-Properties' >
             <ComputerIcon/>
             <ComputerText />
-        </Container>
+        </div>
     )
 } 
 

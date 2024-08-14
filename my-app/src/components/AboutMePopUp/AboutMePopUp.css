@@ -1,6 +1,16 @@
 .window{
-    width: max-content;
-    margin-top:100%;
+    width: 400%;
     align-items:center;
   }
 
+
+.field-row{
+  display:inline-block;
+  width: 100%;
+}
+
+
+.MyAvatar{
+  width:auto;
+  text-align: left;
+}

@@ -6,10 +6,6 @@ import "98.css";
 import Popup from 'reactjs-popup';
 import {MyComputerPopUp} from './components/MyComputerPopUp/MyComputerPopUp.js';
 import { AboutMePopUp } from './components/AboutMePopUp/AboutMePopUp.js';
-import avatar from './assets/pixel_avatar.png'
-
-
-
 
 function App() {
   return (
@@ -18,25 +14,27 @@ function App() {
         <body>
         <Popup
           trigger={MyComputerGroup}
-          position="center center"
+          modal
+          contentStyle={{ width: '50vw ', padding:'0' }} 
           closeOnDocumentClick
         >
           <MyComputerPopUp />
         </Popup>
         <Popup
           trigger={AboutMeFolderGroup}
-          position="center center"
+          modal
+          contentStyle={{ width: '50vw',padding:'0' }} 
           closeOnDocumentClick
         >
           <AboutMePopUp  />
         </Popup>
       </body>
-      <div className='AvatarContainer'><img src={avatar} className='MyAvatar' /></div>
-      
       </header>
-      
+      <div className='Bottom-Container'>
       <BottomBar>  
       </BottomBar>
+      </div>
+     
     </div>
     
   );
