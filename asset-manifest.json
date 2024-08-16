@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/simyee.github.io/static/css/main.fcbf8b40.css",
+    "main.js": "/simyee.github.io/static/js/main.e3bfece1.js",
+    "static/js/453.ed3810f9.chunk.js": "/simyee.github.io/static/js/453.ed3810f9.chunk.js",
+    "static/media/Windows_Regular.ttf": "/simyee.github.io/static/media/Windows_Regular.1418bf0ef20f202d5c85.ttf",
+    "static/media/ms_sans_serif.woff": "/simyee.github.io/static/media/ms_sans_serif.aac84aa6de42b83d1a62.woff",
+    "static/media/ms_sans_serif_bold.woff": "/simyee.github.io/static/media/ms_sans_serif_bold.9fbe71248995f1c639d4.woff",
+    "static/media/ms_sans_serif.woff2": "/simyee.github.io/static/media/ms_sans_serif.0348082abb503fb6a8c2.woff2",
+    "static/media/ms_sans_serif_bold.woff2": "/simyee.github.io/static/media/ms_sans_serif_bold.7fcf57cc6e87ecddbf64.woff2",
+    "index.html": "/simyee.github.io/index.html",
+    "main.fcbf8b40.css.map": "/simyee.github.io/static/css/main.fcbf8b40.css.map",
+    "main.e3bfece1.js.map": "/simyee.github.io/static/js/main.e3bfece1.js.map",
+    "453.ed3810f9.chunk.js.map": "/simyee.github.io/static/js/453.ed3810f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fcbf8b40.css",
+    "static/js/main.e3bfece1.js"
+  ]
+}
