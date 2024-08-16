@@ -1,5 +1,5 @@
 .window{
-    width: 200%;
+    width: 50%;
     align-items:center;
   }
 
@@ -7,4 +7,3 @@
   display:inline-block;
   width: 100%;
 }
-

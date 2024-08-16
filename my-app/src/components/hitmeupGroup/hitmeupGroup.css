@@ -1,25 +1,24 @@
-  .Computer-Container-Properties{
+.Folder-Container-Properties{
     height:max-content;
     width:max-content;
     align-items: center;
     display: inline-block;  
   }
+
+
   .css-ur2jdm-MuiContainer-root{
     width:max-content;
-  }   
+  }
 
-
-  .Computer-icon{
-    margin-left: 5vh;
+  
+.Folder-icon{
     height: 8vh;
     margin-top:5px
   }
 
-  .ComputerText{
+.FolderText{
     color:#fdffff  ;
     font-family: Microsoft;
     margin-top:0;
-    margin-left: 5.5vh;
-    width:max-content;
-    text-align: center;
-  }
+   text-align: center;
+}

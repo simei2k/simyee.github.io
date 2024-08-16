@@ -1,4 +1,4 @@
-  .Computer-Container-Properties{
+.Project-Container-Properties{
     height:max-content;
     width:max-content;
     align-items: center;
@@ -8,14 +8,13 @@
     width:max-content;
   }   
 
-
-  .Computer-icon{
+  .Project-icon{
     margin-left: 5vh;
     height: 8vh;
     margin-top:5px
   }
 
-  .ComputerText{
+  .ProjectText{
     color:#fdffff  ;
     font-family: Microsoft;
     margin-top:0;
