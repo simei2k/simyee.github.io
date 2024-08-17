@@ -2,6 +2,7 @@ import "./AboutMePopUp.css"
 import "../../ButtonFunctionalities/ButtonFunctionalities.css"
 import "../../ButtonFunctionalities/ButtonFunctionalities.js"
 import { toggleFullScreen } from "../../ButtonFunctionalities/ButtonFunctionalities.js"
+
 export function AboutMePopUp(){
   
     return (

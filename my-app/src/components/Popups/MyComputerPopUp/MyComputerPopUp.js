@@ -1,4 +1,8 @@
 import "./MyComputerPopUp.css"
+import "../../ButtonFunctionalities/ButtonFunctionalities.css"
+import "../../ButtonFunctionalities/ButtonFunctionalities.js"
+import { toggleFullScreen } from "../../ButtonFunctionalities/ButtonFunctionalities.js"
+
 export function MyComputerPopUp(){
     return (
         <div className="window">
@@ -6,7 +10,7 @@ export function MyComputerPopUp(){
           <div className="title-bar-text">More About YOUR Computer</div>
           <div className="title-bar-controls">
             <button aria-label="Minimize" />
-            <button aria-label="Maximize" />
+            <button aria-label="Maximize" className='maximise' onClick={() => toggleFullScreen("window")} />
             <button aria-label="Close" />
           </div>
         </div>

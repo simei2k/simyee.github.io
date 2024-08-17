@@ -1,3 +1,19 @@
+.start-button-container{
+  height:inherit;
+  width: 10%;
+  padding-left: 10px
+}
+
+.Bottom-bar-button{
+  height:inherit;
+  width: inherit;
+}
+.start-button-image{
+  height: inherit;
+  width: 100%;
+  position: inherit;
+}
+
 .App-bottom-bar{
     background-color: #c3c3c3;
     position: fixed;
@@ -15,9 +31,4 @@
 }
   
   
-  .Bottom-bar-icon{
-    height:5vh;
-    width: 5vw;
-    margin-left:1vh;
-    align-items:left;
-  }
+ 

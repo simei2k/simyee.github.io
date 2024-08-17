@@ -1,7 +1,7 @@
 .window{
     width: 50%;
     align-items:center;
-    transition: all 0.3s ease; /* Smooth transition */
+    transition: all 0s ease; /* Smooth transition */
   }
 
 .field-row{
