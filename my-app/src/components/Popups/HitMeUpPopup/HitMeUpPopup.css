@@ -1,9 +1,14 @@
 .window{
     width: 50%;
     align-items:center;
+    transition: all 0.3s ease; /* Smooth transition */
   }
 
 .field-row{
   display:inline-block;
-  width: 100%;
+  height: inherit;
 }
+.window-body{
+  height:inherit
+}
+

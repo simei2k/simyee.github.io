@@ -1,0 +1,34 @@
+.window{
+    width: 100%;
+    align-items:center;
+    transition: all 0.3s ease; /* Smooth transition */
+  }
+
+.field-row{
+  display:inline-block;
+  height: inherit;
+}
+.window-body{
+  height:inherit
+}
+
+.tree-view{
+  position:relative;
+  height:calc(100% - 45px)
+
+}
+
+.window.maximized {
+  width: 100vw; /* Full width of the "fake" browser */
+  position: fixed;
+  align-items: unset;
+  height: calc(100vh - 31px); /* Full height minus any header/footer */
+  top: 0;
+  left: 0;
+}
+
+.field-row.maximised{
+  position: relative;
+  width:calc(100% - 40px)
+}
+

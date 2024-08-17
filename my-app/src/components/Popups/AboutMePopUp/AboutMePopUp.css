@@ -1,16 +1,10 @@
 .window{
-    width: 50%;
+    width: 100%;
     align-items:center;
   }
 
 
 .field-row{
   display:inline-block;
-  width: 100%;
-}
-
-
-.MyAvatar{
-  width:auto;
-  text-align: left;
+  width: 200%;
 }

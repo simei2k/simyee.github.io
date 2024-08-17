@@ -1,18 +1,17 @@
-import Container from '@mui/material/Container';
 import "./AboutMeFolderGroup.css"
 
 export function AboutMeFolderGroup(){
     return(
         <div className='Folder-Container-Properties' minWidth={false} maxWidth={false}>
-            <Foldericon></Foldericon>
+            <TextEditorIcon />
             <FolderText></FolderText>
         </div>
     )
 } 
 
-export function Foldericon(){
+export function TextEditorIcon(){
     return(
-        <img src='https://win98icons.alexmeub.com/icons/png/directory_closed_cool-3.png'
+        <img src='https://win98icons.alexmeub.com/icons/png/notepad_file-2.png'
         className='Folder-icon'
         alt='Folder icon'
         />
@@ -20,7 +19,7 @@ export function Foldericon(){
 }
 
 export function FolderText(text){
-    text = "About Me"
+    text = "AboutMe.Txt"
     return(
         <p className='FolderText'>
             {text}
