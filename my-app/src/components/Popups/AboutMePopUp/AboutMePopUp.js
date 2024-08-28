@@ -3,7 +3,7 @@ import "../../ButtonFunctionalities/ButtonFunctionalities.css"
 import "../../ButtonFunctionalities/ButtonFunctionalities.js"
 import { toggleFullScreen } from "../../ButtonFunctionalities/ButtonFunctionalities.js"
 
-export function AboutMePopUp(){
+export function AboutMePopUp({closeTab}){
   
     return (
         <div className="window">
@@ -12,7 +12,7 @@ export function AboutMePopUp(){
           <div className="title-bar-controls">
             <button aria-label="Minimize" className='minimise' />
             <button aria-label="Maximize" className='maximise' onClick={() => toggleFullScreen("window")}/>
-            <button aria-label="Close" className='Close' />
+            <button aria-label="Close" className='Close' onClick = {closeTab}/>
           </div>
         </div>
   

@@ -3,10 +3,10 @@
   src: url('./assets/fonts/Windows_Regular.ttf') format('truetype');
 }
 
-Popup{
-  top: -80%;
-  left: 25%;
+.first-row, .second-row{
+  display: flex
 }
+
 .popup-content {
   display: flex;
   align-items: center;

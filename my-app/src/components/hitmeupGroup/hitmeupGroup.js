@@ -1,6 +1,6 @@
-import "./hitmeupGroup.css"
+import "./HitMeUpGroup.css"
 
-export function hitmeupGroup(){
+export function HitMeUpGroup(){
     return(
         <div className='Folder-Container-Properties' minWidth={false} maxWidth={false}>
             <Foldericon></Foldericon>

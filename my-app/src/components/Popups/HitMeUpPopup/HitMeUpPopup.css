@@ -1,7 +1,15 @@
+.popup{
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10%
+}
+
 .window{
-    width: 50%;
+    width: 25%;
     align-items:center;
     transition: all 0s ease; /* Smooth transition */
+    left: 50%;
   }
 
 .field-row{

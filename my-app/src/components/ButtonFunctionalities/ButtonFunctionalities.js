@@ -10,3 +10,8 @@ export function toggleFullScreen(elementClassName) {
       element.classList.add("maximized");
     }
   }
+
+
+  export const closeTab = (id, tabs, setTabs) => {
+    setTabs(tabs.filter(tab => tab.id !== id));
+  };
